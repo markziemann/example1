@@ -2,7 +2,7 @@
 Tutorial on how to work with GitHub in R.
 
 ## Motivation
-This demonstration is designed to get students involved in working with GitHub via Rstudio.
+This demonstration is designed to get students involved in working with GitHub via Rstudio. Hopefully this will help students with their bioinformatics assignment.
 
 ## Contents
 An example R script/Rmd that demonstrates how to download a file and read it into R. 

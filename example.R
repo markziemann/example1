@@ -9,8 +9,8 @@ download.file("https://raw.githubusercontent.com/markziemann/SLE712_files/master
 x <- read.table("mydata.tsv", header = TRUE, row.names=1 ,
     stringsAsFactors = FALSE)
 
-# Have a look at the first 6 lines of a file
+# Have a look at the first 6 lines of a file.
 head(x)
 
-# confirm the structure and type of data in dataframe
+# confirm the structure and type of data in dataframe.
 str(x)
