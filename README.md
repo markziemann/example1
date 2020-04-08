@@ -9,3 +9,6 @@ An example R script/Rmd that demonstrates how to download a file and read it int
 
 ## Installation
 This script was designed to work with Rstudio version 1.2.1335 and Base R 3.6.3.
+
+## Contributors
+By Mark Ziemann (Deakin Uni)
