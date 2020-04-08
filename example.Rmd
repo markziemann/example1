@@ -1,16 +1,36 @@
+---
+title: "Read in mydata.tsv"
+author: "Mark Ziemann"
+output: html_document
+theme: cosmo
+---
+## Download the file
+Use the `download.file()` command to obtain the dataset from github.
+
+```{r, download, echo = TRUE}
 # download the gene expression dataset from github
 # note that I've downloaded the "raw" file 
 download.file("https://raw.githubusercontent.com/markziemann/SLE712_files/master/bioinfo_asst3_part1_files/mydata.tsv",
               destfile = "mydata.tsv")
+```
 
+## Read in the file 
+Use `read.table()` making sure that the data is imported properly
+
+```{r, readtable, echo = TRUE}
 # Read file into R and specify that the 1st line is the header and 
 # first row is the row names, making sure that strings are not recognised
 # as factors
 x <- read.table("mydata.tsv", header = TRUE, row.names=1 ,
     stringsAsFactors = FALSE)
+```
 
+## Confirm the data is correctly formatted
+
+```{r, datacheck, echo = TRUE}
 # Have a look at the first 6 lines of a file.
 head(x)
 
 # confirm the structure and type of data in dataframe.
 str(x)
+```
